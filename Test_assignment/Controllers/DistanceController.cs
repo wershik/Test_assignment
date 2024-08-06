@@ -15,7 +15,7 @@ namespace Test_assignment.Controllers
         /// <summary>
         /// Инициализирует новый экземпляр класса <see cref="DistanceController"/>.
         /// </summary>
-        /// <param name="airportService">Сервис для получения информации об аэропортах.</param>
+        /// <param name="airportService">Сервис для получения информации об аэропортах. </param>
         /// <param name="distanceCalculationService">Сервис для расчета расстояний.</param>
         /// <param name="logger">Логгер для записи информации о запросах и ответах.</param>
         public DistanceController(IAirportService airportService, IDistanceCalculationService distanceCalculationService, ILogger<DistanceController> logger)
